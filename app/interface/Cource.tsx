@@ -1,5 +1,5 @@
 import React from 'react';
-import CardComponent from "@/app/components/CardComponent";
+import CardComponent from "@/app/components/CourseCardComponent";
 
 const cards = [
     {

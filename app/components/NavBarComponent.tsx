@@ -1,4 +1,13 @@
-import {Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle} from "flowbite-react";
+
+import React from "react";
+import {
+  Button,
+  Navbar,
+  NavbarBrand,
+  NavbarCollapse,
+  NavbarLink,
+  NavbarToggle,
+} from "flowbite-react";
 import Link from "next/link";
 
 const NavBarComponent = () =>{
@@ -17,18 +26,18 @@ const NavBarComponent = () =>{
                         <NavbarLink href="/" className="text-lg text-white hover:text-primary lg:hover:text-white">
                             Home
                         </NavbarLink>
-                        <NavbarLink href="/enroll"
+                        <NavbarLink href="/enroll/"
                                     className="text-lg text-white hover:text-primary lg:hover:text-white">
                             Enroll
                         </NavbarLink>
                         <NavbarLink href="/course"
                                     className="text-lg text-white hover:text-primary lg:hover:text-white">Course</NavbarLink>
-                        <NavbarLink href="/it-news"
+                        <NavbarLink href="/itnews/"
                                     className="text-lg text-white hover:text-primary lg:hover:text-white">IT
                             News</NavbarLink>
-                        <NavbarLink href="/job" className="text-lg text-white hover:text-primary lg:hover:text-white">Job
+                        <NavbarLink href="/jobopportunity/" className="text-lg text-white hover:text-primary lg:hover:text-white">Job
                             Opportunity</NavbarLink>
-                        <NavbarLink href="/about-us"
+                        <NavbarLink href="/about/"
                                     className="text-lg text-white hover:text-primary lg:hover:text-white">About
                             Us</NavbarLink>
                     </NavbarCollapse>
@@ -37,4 +46,5 @@ const NavBarComponent = () =>{
         </>
     )
 }
-export default NavBarComponent;
+export default NavBarComponent
+
