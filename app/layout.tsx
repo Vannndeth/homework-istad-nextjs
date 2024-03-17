@@ -18,6 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+            <meta charSet="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta name="description" content={metadata.description}/>
+            <title>{metadata.title}</title>
+            <link rel="icon" href="https://istad.co/resources/img/CSTAD_120.png"/>
+        </head>
       <body className={inter.className}>
       <NavBarComponent />
       {children}</body>
